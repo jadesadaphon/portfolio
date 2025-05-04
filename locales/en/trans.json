@@ -1,0 +1,71 @@
+{
+  "nickname": "Jade",
+  "lastname": "Chaykaew",
+
+  "about": "About",
+  "skills": "Skills",
+  "experience": "Experience",
+  "work": "Projects",
+  "education": "Education",
+  "rights": "© 2025 Jade Chaykaew. All rights reserved.",
+
+  "componentAbout": {
+    "line1": "Hi",
+    "line2": "I am Jadesadaphon Chaykaew",
+    "line3": "I am a ",
+    "line4": "I am an Android Application Developer using Kotlin and Java, and also a Desktop Application Developer using Python.",
+    "line5": "I work as IT Support at ID-Home2015 Co., Ltd., located in Prasat District, Surin Province, with 2 years of experience.",
+    "line6": "I have skills in software development for object detection and classification using models such as YOLO, ONNX, and NCNN.",
+    "line7": "I have skills in computer maintenance, hardware upgrades, software installation, and OS installation.",
+    "line8": "I am also skilled in the maintenance and installation of Analog and Digital CCTV systems.",
+    "line9": "Although I may not have direct experience in the field, I am eager to learn new things, improve myself, and adapt quickly to any work environment.",
+    "line10": "Not knowing is okay, as long as I never stop learning."
+  },
+
+  "componentExperience": {
+    "skillsTitle": "Skills",
+    "id1": {
+      "company": "ID-Home2015 Co., Ltd.",
+      "date": "September 2023 - Present",
+      "desc": "Provided IT support and troubleshooting for both hardware and software. Maintained IT equipment and network systems. Repaired and installed CCTV systems. Handled basic server maintenance and developed internal software tools to support company departments."
+    },
+    "id2": {
+      "company": "Personal Project",
+      "date": "2021 - Present",
+      "desc": "Developed a real-time object detection app on Android using the YOLO model converted to NCNN for mobile optimization. Built using Kotlin and integrated with Native C++ via JNI. Real-time data was logged via Firebase."
+    },
+    "id3": {
+      "company": "Personal Project",
+      "date": "2021 - Present",
+      "desc": "Developed a Desktop application in Python to control Android devices via ADB and capture screenshots using Scrcpy. Implemented real-time object detection using the YOLO model converted to ONNX for performance enhancement. Real-time data logging was handled through Firebase."
+    }
+  },
+
+  "componentEducation": {
+    "grade": "GPA ",
+    "id1": {
+      "degree": "Information Technology",
+      "school": "Surindra Rajabhat University",
+      "date": "August 2015 - March 2019",
+      "desc": "Graduated with a Bachelor of Science degree in Information Technology."
+    },
+    "id2": {
+      "degree": "High School",
+      "school": "Naengmud Witthaya School",
+      "date": "May 2012 - March 2015",
+      "desc": "Graduated from high school at Naengmud Witthaya School, Nang Mud Subdistrict, Kap Choeng District, Surin Province."
+    },
+    "id3": {
+      "degree": "Lower Secondary School",
+      "school": "Naengmud Witthaya School",
+      "date": "May 2009 - March 2012",
+      "desc": "Completed lower secondary education at Naengmud Witthaya School, Nang Mud Subdistrict, Kap Choeng District, Surin Province."
+    },
+    "id4": {
+      "degree": "Primary School",
+      "school": "NikhomSangTonEngPrasat2 School",
+      "date": "",
+      "desc": "Graduated from primary school at Nikhom Sang Ton Eng Prasat 2 School, Nang Mud Subdistrict, Kap Choeng District, Surin Province."
+    }
+  }
+}
