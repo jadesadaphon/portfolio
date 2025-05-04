@@ -1,0 +1,18 @@
+@keyframes glow-animation {
+    0% {
+      box-shadow: 0 0 1px #8245ec, 0 0 2px #8245ec, 0 0 3px #8245ec, 0 0 4px #8245ec;
+    }
+    50% {
+      box-shadow: 0 0 4px #8245ec, 0 0 5px #8245ec, 0 0 6px #8245ec, 0 0 7px #8245ec;
+    }
+    100% {
+      box-shadow: 0 0 1px #8245ec, 0 0 2px #8245ec, 0 0 3px #8245ec, 0 0 4px #8245ec;
+    }
+  }
+  
+  .glow-border {
+    border: 2px solid transparent;
+    border-radius: 1.5rem; /* Match rounded-3xl */
+    animation: glow-animation 3s ease-in-out infinite;
+  }
+  
