@@ -45,7 +45,10 @@ import RESTAPIsNodejsExpressLogo from "./assets/work_logo/REST_APIs_Nodejs_Expre
 import IDHomeAndroidAppLogo from "./assets/work_logo/IDHome_Android_App.png";
 import GLOBOTAndroidAppLogo from "./assets/work_logo/GLOBOT_Android_App.png";
 import SACCustomerDisplayLogo from "./assets/work_logo/SAC_Customer_Display.png";
-import npmLogo from "./assets/work_logo/npm.png";
+import BackendAPISystemPythonFlaskLogo from "./assets/work_logo/Backend_API_System_PythonFlask.png";
+import AdminToolsPythonCustomTkinterRequestsLogo from "./assets/work_logo/Admin_Tools_PythonCustomTkinterRequests.png";
+import GLOBOTDesktopAppLogo from "./assets/work_logo/GLOBOTDesktopApp.png";
+
 
 export const SkillsInfo = [
   {
@@ -207,7 +210,10 @@ export const projects = [
   {
     id: 0,
     title: "SAC Customer Display",
-    description: "",
+    description: `Desktop Application พัฒนาโดยใช้ภาษา Python ช่วยเป็นส่วนเสริมให้กับโปรแกรม SmileAccountCharming (โปรแกรมขายบริษัทไอดีโฮม) \n
+    คุณสมบัติของโปรแกรม\n
+    ✅ แสดงข้อมูลสินค้า\n
+    ✅ Generator QR Code payment แบบ ล็อคยอดโอน`,
     image: SACCustomerDisplayLogo,
     tags: ["Python", "OpenCV", "TKinter"],
     github: "https://github.com/jadesadaphon/SAC-Customer-Display.git",
@@ -216,9 +222,15 @@ export const projects = [
   {
     id: 1,
     title: "IDHome Android App",
-    description: "",
+    description: `Android Application พัฒนาโดยใช้ภาษา Kotlin เป้าหมายของโปรเจคคือ อํานวยความสะดวกในการตรวจสอบข้อมูลสินค้าให้กับหน่วยงานใน บริษัทไอดีโฮม \n
+    คุณสมบัติของโปรแกรม\n
+    ✅ แสดงรายละเอียดสินค้า สต๊อก/ค้างรับ `,
     image: IDHomeAndroidAppLogo,
-    tags: ["Kotlin", "Python", "Flask", "SQLServer", "XML"],
+    tags: [
+      "Kotlin", 
+      "Python Flask", 
+      "Microsoft SQL Server"
+    ],
     github: "https://github.com/jadesadaphon/IDHome-Android-App",
     webapp: "",
   },
@@ -229,12 +241,8 @@ export const projects = [
       "(อยู่ระหว่างการพัฒนา) โปรเจกต์ Backend API ที่พัฒนาโดยใช้ Node.js และ Express โดยเชื่อมต่อกับฐานข้อมูล SQL Server มีเป้าหมายเพื่อให้บริการ API สำหรับ Web Application ซึ่ง API ที่พร้อมใช้งานในขณะนี้ ได้แก่ สมัครสมาชิก (Register), เข้าสู่ระบบ (Login), ออกจากระบบ (Logout), ระบบผู้ดูแล (Admin)",
     image: RESTAPIsNodejsExpressLogo,
     tags: [
-      "Node.js",
-      "Express",
-      "SQL Server",
       "JavaScript",
-      "SQL",
-      "Postman",
+      "Microsoft SQL Server",
       "json web token",
     ],
     github: "https://github.com/jadesadaphon/REST-APIs-Node.js-Express.git",
@@ -244,17 +252,17 @@ export const projects = [
     id: 3,
     title: "GLOBOT Android App",
     description:
-      "Android Application พัฒนาโดยใช้ภาษา Kotlin, C, C++ สำหรับ Automate อุปกรณ์แอนดรอยด์ เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง หลักการทำงานเบื้องต้นของโปรแกรม จับภาพหน้าจอเรียลไทม์ ตรวจจับวัตถุบนหน้าจอ ทัชสกรีนตำแหน่งที่พบวัตถุ",
+      `Android Application พัฒนาโดยใช้ภาษา Kotlin, C, C++ สำหรับ Automate อุปกรณ์แอนดรอยด์ เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง \n 
+      หลักการทำงานเบื้องต้นของโปรแกรม \n
+      ✅ จับภาพหน้า\n
+      ✅ ตรวจจับวัตถุบนภาพ\n
+      ✅ ทัชสกรีนตำแหน่งที่พบวัตถุ`,
     image: GLOBOTAndroidAppLogo,
     tags: [
       "Kotlin",
       "C",
       "C++",
-      "XML",
-      "YOLO",
-      "NCNN",
-      "OpenCV",
-      "Object Detection",
+      "Yolo NCNN",
       "Firebase",
     ],
     github: "https://github.com/jadesadaphon/GLOBOT-Android-App",
@@ -264,58 +272,48 @@ export const projects = [
     id: 4,
     title: "GLOBOT Desktop App",
     description:
-      "Desktop Application พัฒนาโดยใช้ภาษา Python สำหรับ Automate อุปกรณ์แอนดรอยด์ ผ่าน ADB เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง หลักการทำงานเบื้องต้นของโปรแกรม จับภาพหน้าจอเรียลไทม์ ตรวจจับวัตถุบนหน้าจอ ทัชสกรีนตำแหน่งที่พบวัตถุ",
-    image: npmLogo,
+      `Desktop Application พัฒนาโดยใช้ภาษา Python สำหรับ Automate อุปกรณ์แอนดรอยด์ ผ่าน ADB เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง \n
+      การทำงานของโปรแกรม \n
+      ✅ จับภาพหน้าจออุปกรณ์แอนดรอยด์ 
+      ✅ ตรวจจับวัตถุจากภาพ
+      ✅ ทัชสกรีนตำแหน่งที่พบวัตถุ
+      \n`,
+    image: GLOBOTDesktopAppLogo,
     tags: [
       "Python",
-      "ADB",
-      "YOLO",
-      "ONNX",
+      "Yolo ONNX ",
       "OpenCV",
-      "Scrcpy",
-      "TKinter",
-      "Object Detection",
-      "Firebase",
+      "CustomTkinter"
     ],
-    github: "",
+    github: "https://github.com/jadesadaphon/GLOBOT-Desktop-App.git",
     webapp: "",
   },
   {
     id: 5,
-    title: "GLOBOT Desktop App (Admin)",
-    description: "",
-    image: npmLogo,
+    title: "Admin Tools (Python + CustomTkinter + Requests)",
+    description: `เครื่องมือ Admin สำหรับจัดการข้อมูลผู้ใช้ พัฒนาด้วยภาษา Python โดยใช้ CustomTkinter Framework ช่วยสร้าง GUI และ Requests Framework ติดต่อกับ Backend API`,
+    image: AdminToolsPythonCustomTkinterRequestsLogo,
     tags: [
       "Python",
-      "ADB",
-      "YOLO",
-      "ONNX",
-      "OpenCV",
-      "Scrcpy",
-      "TKinter",
-      "Object Detection",
-      "Firebase",
+      "CustomTkinter",
+      "Requests",
     ],
-    github: "",
+    github: "https://github.com/jadesadaphon/Admin-Tools-Python-CustomTkinter-Requests.git",
     webapp: "",
   },
   {
     id: 6,
-    title: "GLOBOT Desktop App (Backend)",
-    description: "",
-    image: npmLogo,
+    title: "Backend API System (Python + Flask)",
+    description: `
+    ระบบ Backend API พัฒนาด้วยภาษา Python โดยใช้ Flask Framework เชื่อมต่อฐานข้อมูล Microsoft SQL Server ผ่าน ODBC Driver และมีระบบ Authentication ด้วย Firebase Authentication เพื่อยืนยันตัวตนผู้ใช้งาน`,
+    image: BackendAPISystemPythonFlaskLogo,
     tags: [
       "Python",
-      "ADB",
-      "YOLO",
-      "ONNX",
-      "OpenCV",
-      "Scrcpy",
-      "TKinter",
-      "Object Detection",
-      "Firebase",
+      "Flask",
+      "Firebase Admin SDK (Authentication)",
+      "Microsoft SQL Server"
     ],
-    github: "",
+    github: "https://github.com/jadesadaphon/Backend-API-System-Python-Flask.git",
     webapp: "",
   },
 ];
