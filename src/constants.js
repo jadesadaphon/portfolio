@@ -49,7 +49,6 @@ import BackendAPISystemPythonFlaskLogo from "./assets/work_logo/Backend_API_Syst
 import AdminToolsPythonCustomTkinterRequestsLogo from "./assets/work_logo/Admin_Tools_PythonCustomTkinterRequests.png";
 import GLOBOTDesktopAppLogo from "./assets/work_logo/GLOBOTDesktopApp.png";
 
-
 export const SkillsInfo = [
   {
     title: "Frontend Developer",
@@ -226,11 +225,7 @@ export const projects = [
     คุณสมบัติของโปรแกรม\n
     ✅ แสดงรายละเอียดสินค้า สต๊อก/ค้างรับ `,
     image: IDHomeAndroidAppLogo,
-    tags: [
-      "Kotlin", 
-      "Python Flask", 
-      "Microsoft SQL Server"
-    ],
+    tags: ["Kotlin", "Python Flask", "Microsoft SQL Server"],
     github: "https://github.com/jadesadaphon/IDHome-Android-App",
     webapp: "",
   },
@@ -240,66 +235,46 @@ export const projects = [
     description:
       "(อยู่ระหว่างการพัฒนา) โปรเจกต์ Backend API ที่พัฒนาโดยใช้ Node.js และ Express โดยเชื่อมต่อกับฐานข้อมูล SQL Server มีเป้าหมายเพื่อให้บริการ API สำหรับ Web Application ซึ่ง API ที่พร้อมใช้งานในขณะนี้ ได้แก่ สมัครสมาชิก (Register), เข้าสู่ระบบ (Login), ออกจากระบบ (Logout), ระบบผู้ดูแล (Admin)",
     image: RESTAPIsNodejsExpressLogo,
-    tags: [
-      "JavaScript",
-      "Microsoft SQL Server",
-      "json web token",
-    ],
+    tags: ["JavaScript", "Microsoft SQL Server", "json web token"],
     github: "https://github.com/jadesadaphon/REST-APIs-Node.js-Express.git",
     webapp: "",
   },
   {
     id: 3,
     title: "GLOBOT Android App",
-    description:
-      `Android Application พัฒนาโดยใช้ภาษา Kotlin, C, C++ สำหรับ Automate อุปกรณ์แอนดรอยด์ เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง \n 
+    description: `Android Application พัฒนาโดยใช้ภาษา Kotlin, C, C++ สำหรับ Automate อุปกรณ์แอนดรอยด์ เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง \n 
       หลักการทำงานเบื้องต้นของโปรแกรม \n
       ✅ จับภาพหน้า\n
       ✅ ตรวจจับวัตถุบนภาพ\n
       ✅ ทัชสกรีนตำแหน่งที่พบวัตถุ`,
     image: GLOBOTAndroidAppLogo,
-    tags: [
-      "Kotlin",
-      "C",
-      "C++",
-      "Yolo NCNN",
-      "Firebase",
-    ],
+    tags: ["Kotlin", "C", "C++", "Yolo NCNN", "Firebase"],
     github: "https://github.com/jadesadaphon/GLOBOT-Android-App",
     webapp: "",
   },
   {
     id: 4,
     title: "GLOBOT Desktop App",
-    description:
-      `Desktop Application พัฒนาโดยใช้ภาษา Python สำหรับ Automate อุปกรณ์แอนดรอยด์ ผ่าน ADB เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง \n
+    description: `Desktop Application พัฒนาโดยใช้ภาษา Python สำหรับ Automate อุปกรณ์แอนดรอยด์ ผ่าน ADB เป้าหมายของโปรเจคคือ การทำระบบอัตโนมัติช่วยในการ ซื้อ-จอง สลากฯกินแบ่งรัฐบาล ของผู้มีสิทธิ์(ตัวแทนจำหน่าย) ผ่านแอปพลิเคชันเป๋าตัง \n
       การทำงานของโปรแกรม \n
       ✅ จับภาพหน้าจออุปกรณ์แอนดรอยด์ 
       ✅ ตรวจจับวัตถุจากภาพ
       ✅ ทัชสกรีนตำแหน่งที่พบวัตถุ
       \n`,
     image: GLOBOTDesktopAppLogo,
-    tags: [
-      "Python",
-      "Yolo ONNX ",
-      "OpenCV",
-      "CustomTkinter"
-    ],
+    tags: ["Python", "Yolo ONNX ", "OpenCV", "CustomTkinter"],
     github: "https://github.com/jadesadaphon/GLOBOT-Desktop-App.git",
-    webapp: "",
+    webapp: "https://youtu.be/P6thzTLFXN4",
   },
   {
     id: 5,
     title: "Admin Tools (Python + CustomTkinter + Requests)",
     description: `เครื่องมือ Admin สำหรับจัดการข้อมูลผู้ใช้ พัฒนาด้วยภาษา Python โดยใช้ CustomTkinter Framework ช่วยสร้าง GUI และ Requests Framework ติดต่อกับ Backend API`,
     image: AdminToolsPythonCustomTkinterRequestsLogo,
-    tags: [
-      "Python",
-      "CustomTkinter",
-      "Requests",
-    ],
-    github: "https://github.com/jadesadaphon/Admin-Tools-Python-CustomTkinter-Requests.git",
-    webapp: "",
+    tags: ["Python", "CustomTkinter", "Requests"],
+    github:
+      "https://github.com/jadesadaphon/Admin-Tools-Python-CustomTkinter-Requests.git",
+    webapp: "https://youtu.be/P6thzTLFXN4",
   },
   {
     id: 6,
@@ -311,9 +286,10 @@ export const projects = [
       "Python",
       "Flask",
       "Firebase Admin SDK (Authentication)",
-      "Microsoft SQL Server"
+      "Microsoft SQL Server",
     ],
-    github: "https://github.com/jadesadaphon/Backend-API-System-Python-Flask.git",
-    webapp: "",
+    github:
+      "https://github.com/jadesadaphon/Backend-API-System-Python-Flask.git",
+    webapp: "https://youtu.be/P6thzTLFXN4",
   },
 ];
