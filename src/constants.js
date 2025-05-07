@@ -250,7 +250,7 @@ export const projects = [
     image: GLOBOTAndroidAppLogo,
     tags: ["Kotlin", "C", "C++", "Yolo NCNN", "Firebase"],
     github: "https://github.com/jadesadaphon/GLOBOT-Android-App",
-    webapp: "",
+    webapp: "https://youtu.be/eDWbY3keAfs",
   },
   {
     id: 4,
