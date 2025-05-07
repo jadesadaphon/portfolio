@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 import thLogo from "../../assets/flags/th.png";
 import enLogo from "../../assets/flags/en.png";
@@ -156,14 +156,6 @@ const Navbar = () => {
                 className="text-gray-300 hover:text-white"
               >
                 <FaGithub size={24} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
-              >
-                <FaLinkedin size={24} />
               </a>
             </div>
 
