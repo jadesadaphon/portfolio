@@ -216,7 +216,7 @@ export const projects = [
     image: SACCustomerDisplayLogo,
     tags: ["Python", "OpenCV", "TKinter"],
     github: "https://github.com/jadesadaphon/SAC-Customer-Display.git",
-    webapp: "",
+    webapp: "https://youtu.be/6yorvNQ9yvA",
   },
   {
     id: 1,
