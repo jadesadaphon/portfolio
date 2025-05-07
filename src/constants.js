@@ -56,7 +56,7 @@ export const SkillsInfo = [
       { name: "HTML", logo: htmlLogo, level: 4 },
       { name: "CSS", logo: cssLogo, level: 4 },
       { name: "Javascript", logo: javascriptLogo, level: 4 },
-      { name: "XML", logo: xmlLogo, level: 5 },
+      // { name: "XML", logo: xmlLogo, level: 5 },
       { name: "TKinter", logo: TKinterLogo, level: 5 },
       // { name: 'React.js', logo: reactLogo, level: 4 }
     ],
